@@ -1,0 +1,23 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f4f6f9;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

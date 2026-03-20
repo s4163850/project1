@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">PetConnect</a>
+  </div>
+</nav>
+
+<div class="container text-center mt-4">
+  <button onclick="filterPets('all')" class="btn btn-primary">All</button>
+  <button onclick="filterPets('available')" class="btn btn-success">Available</button>
+  <button onclick="filterPets('adopted')" class="btn btn-danger">Adopted</button>
+</div>
+
+<div class="container mt-4">
+<div class="row">
+
+<!-- PETS -->
+<div class="col-md-3 pet-card" data-status="available">
+<div class="card"><img src="assets/images/pet1.jpg"><div class="card-body">Dog 1 - Available</div></div></div>
+
+<div class="col-md-3 pet-card" data-status="adopted">
+<div class="card"><img src="assets/images/pet2.jpg"><div class="card-body">Dog 2 - Adopted</div></div></div>
+
+<div class="col-md-3 pet-card" data-status="available">
+<div class="card"><img src="assets/images/pet3.jpg"><div class="card-body">Dog 3 - Available</div></div></div>
+
+<div class="col-md-3 pet-card" data-status="adopted">
+<div class="card"><img src="assets/images/pet4.jpg"><div class="card-body">Dog 4 - Adopted</div></div></div>
+
+<div class="col-md-3 pet-card" data-status="available">
+<div class="card"><img src="assets/images/pet5.jpg"><div class="card-body">Dog 5 - Available</div></div></div>
+
+<div class="col-md-3 pet-card" data-status="available">
+<div class="card"><img src="assets/images/pet6.jpg"><div class="card-body">Dog 6 - Available</div></div></div>
+
+<div class="col-md-3 pet-card" data-status="adopted">
+<div class="card"><img src="assets/images/pet7.jpg"><div class="card-body">Dog 7 - Adopted</div></div></div>
+
+<div class="col-md-3 pet-card" data-status="available">
+<div class="card"><img src="assets/images/pet8.jpg"><div class="card-body">Dog 8 - Available</div></div></div>
+
+</div>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
